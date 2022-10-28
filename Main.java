@@ -6,8 +6,8 @@
 // import java.io.IOException;
 // import java.util.Date;
 
-// public class hw3 {
-//     public static ArrayList<Integer> Merge(ArrayList<Integer> arrayA, ArrayList<Integer> arrayB) {
+// public class Main {
+//     public static ArrayList<Integer> merge(ArrayList<Integer> arrayA, ArrayList<Integer> arrayB) {
 
 //         ArrayList<Integer> arrayC = new ArrayList<Integer>(arrayA.size() + arrayB.size());
 //         int positionA = 0, positionB = 0;
@@ -30,7 +30,7 @@
 //         return arrayC;
 //     }
 
-//     public static ArrayList<Integer> MergeSort(ArrayList<Integer> arrayA) {
+//     public static ArrayList<Integer> mergeSort(ArrayList<Integer> arrayA) {
 //         if (arrayA == null) {
 //             return null;
 //         } else if (arrayA.size() < 2) {
@@ -46,7 +46,7 @@
 //         for (int i = arrayA.size() / 2; i < arrayA.size(); i++) {
 //             arrayC.add(j++, arrayA.get(i));
 //         }
-//         return Merge(MergeSort(arrayB), MergeSort(arrayC));
+//         return merge(mergeSort(arrayB), mergeSort(arrayC));
 //     }
 
 //     public static void main(String[] args) {
@@ -66,7 +66,7 @@
 //             bufferWriter.write(arr.toString());
 //             bufferWriter.write("\n");
 //             ArrayList<Integer> arr_new = new ArrayList<Integer>(10);
-//             arr_new.addAll(MergeSort(arr));
+//             arr_new.addAll(mergeSort(arr));
 //             bufferWriter.write("Sorted array: ");
 //             bufferWriter.write(arr_new.toString());
 //             bufferWriter.write("\n");
@@ -82,7 +82,7 @@
 // import java.util.Random;
 // import java.util.logging.Logger;
 
-// public class hw3 {
+// public class Main {
 //     public static void main(String[] args) {
 //         Logger logger = Logger.getAnonymousLogger();
 //         Random r = new Random();
@@ -110,7 +110,7 @@
 // import java.util.ArrayList;
 // import java.util.Random;
 // import java.util.logging.Logger;
-// public class hw3 {
+// public class Main {
 //     public static void main(String[] args) throws Exception {
 //         Logger logger = Logger.getAnonymousLogger();
 //         Random r = new Random();
